@@ -1,0 +1,18 @@
+.footer {
+    text-align: center;
+    background-color: #f4b3c2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media print, screen and (max-width: 500px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0;
+    }
+    .inner {
+    }
+    .copyright {
+        @media print, screen and (max-width: 500px) {
+            font-size: 14px;
+        }
+    }
+}

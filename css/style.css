@@ -1,0 +1,447 @@
+@charset "UTF-8";
+body {
+  -webkit-text-size-adjust: 100%;
+  color: #4c4c4c;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, " メイリオ", Meiryo, Osaka, " ＭＳ Ｐゴシック", MS PGothic, " sans-serif";
+}
+
+main {
+  overflow: hidden;
+  background-color: #fff5f7;
+}
+
+.inner {
+  max-width: 580px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .inner {
+    max-width: 400px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .inner {
+    max-width: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.cmn-title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cmn-title p {
+  border-left: 14px solid #f4b3c2;
+  border-bottom: 2px dotted #f4b3c2;
+  color: #000;
+  font-size: 18px;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+@media print, screen and (max-width: 470px) {
+  .cmn-title p {
+    font-size: 17px;
+  }
+}
+
+@media print, screen and (min-width: 650px) {
+  .cmn-title .sp {
+    display: none;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: #f4b3c2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .footer .copyright {
+    font-size: 14px;
+  }
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.title h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #ff388e;
+}
+
+@media print, screen and (max-width: 650px) {
+  .title h1 {
+    font-size: 20px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .title h1 {
+    font-size: 16px;
+  }
+}
+
+.title .pr {
+  font-size: 12px;
+  color: #ccc;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.intro .box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 580px;
+  text-align: center;
+}
+
+.intro .box p {
+  text-align: center;
+}
+
+@media print, screen and (max-width: 650px) {
+  .intro .box p {
+    font-size: 12px;
+  }
+}
+
+.intro .box-influencer {
+  border: 4px solid #ff0066;
+  border-radius: 240px 15px 185px 15px / 15px 200px 15px 185px;
+  margin: 2em 0;
+  padding: 2em;
+}
+
+.intro .pink {
+  color: #ff388e;
+  font-size: 20px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+}
+
+@media print, screen and (max-width: 650px) {
+  .intro .pink {
+    font-size: 16px;
+  }
+}
+
+.intro .underline {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .intro .underline {
+    font-size: 14px;
+  }
+}
+
+.intro .bold {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff388e;
+}
+
+@media print, screen and (max-width: 650px) {
+  .intro .bold {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .intro .sp {
+    display: none;
+  }
+}
+
+.feature .feature-1 .box p {
+  max-width: 580px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .feature-1 .box p {
+    font-size: 12px;
+  }
+}
+
+.feature .feature-2 .box p {
+  max-width: 580px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .feature-2 .box p {
+    font-size: 12px;
+  }
+}
+
+.feature .feature-3 .box {
+  max-width: 580px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .feature-3 .box p {
+    font-size: 12px;
+  }
+}
+
+.feature .feature-4 .image {
+  text-align: center;
+}
+
+.feature .feature-4 .box {
+  max-width: 580px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .feature-4 .box p {
+    font-size: 12px;
+  }
+}
+
+.feature .pink {
+  color: #ff388e;
+  font-size: 16px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+}
+
+@media print, screen and (max-width: 470px) {
+  .feature .pink {
+    font-size: 15px;
+  }
+}
+
+.feature .underline {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .underline {
+    font-size: 16px;
+  }
+}
+
+.feature .bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .bold {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (min-width: 670px) {
+  .feature .sp {
+    display: none;
+  }
+}
+
+.price .box {
+  max-width: 580px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.price .box p {
+  font-size: 15px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .price .box p {
+    font-size: 12px;
+  }
+}
+
+.price .pink {
+  color: #ff388e;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .price .pink {
+    font-size: 16px;
+  }
+}
+
+.price .underline {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .price .underline {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (min-width: 670px) {
+  .price .sp {
+    display: none;
+  }
+}
+
+.conc .box {
+  max-width: 580px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .conc .box p {
+    font-size: 12px;
+  }
+}
+
+.conc .pink {
+  color: #ff388e;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .conc .pink {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .conc .pink {
+    font-size: 14px;
+  }
+}
+
+.conc .underline {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .conc .underline {
+    font-size: 18px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .conc .underline {
+    font-size: 14px;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .conc .sp {
+    display: none;
+  }
+}
+
+.btn {
+  height: 100px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .btn {
+    height: 60px;
+  }
+}
+
+.btn .btn-inner {
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .btn .btn-inner {
+    margin-top: 40px;
+  }
+}
+
+.btn .btn-inner a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff0066;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 100vh;
+  font-size: 30px;
+}
+
+@media print, screen and (min-width: 500px) and (max-width: 650px) {
+  .btn .btn-inner a {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .btn .btn-inner a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
